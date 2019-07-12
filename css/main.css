@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Pacifico; /* Имя шрифта */
+  src: url(../fonts/Pacifico-Regular.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: Caveat; /* Имя шрифта */
+  src: url(../fonts/Caveat-Bold.ttf); /* Путь к файлу со шрифтом */
+ }
+
+body {
+  background: #3a438f;
+  margin: 0;
+  padding: 0;
+}
+
+#clock-container {
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Pacifico;
+  font-size: 25px;
+}
+
+pre {
+  font-size: 25px;
+  color: white;
+  font-family: Caveat;
+}
+
+#clockdiv {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 40px;
+	background: #71badb;
+	display: inline-block;
+}
+
+.smalltext{
+  font-family: sans-serif;
+	padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: white;
+  margin-top: 10px;
+  color: #71badb;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#begin {
+  width: inherit;
+  display: none;
+}
+
+#final {
+  display: none;
+}
+
+#container-gif {
+  width: 400px;
+  height: 300px;
+}
+.images {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
